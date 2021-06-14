@@ -3,4 +3,9 @@ Unix
 Bash
 HTML
 CSS
-vscode
+trybe-skills-updates
+=======
+Javascript
+Git
+SQL
+main
