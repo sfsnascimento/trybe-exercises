@@ -3,8 +3,6 @@ Unix
 Bash
 HTML
 CSS
-trybe-skills-updates
-=======
 Javascript
 Git
 SQL
