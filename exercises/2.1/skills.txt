@@ -6,4 +6,3 @@ CSS
 Javascript
 Git
 SQL
-main
