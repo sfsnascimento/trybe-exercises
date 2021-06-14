@@ -3,3 +3,6 @@ Unix
 Bash
 HTML
 CSS
+Javascript
+Git
+SQL
