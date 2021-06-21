@@ -1,0 +1,35 @@
+body {
+    font-family: Montserrat, sans-serif;
+  }
+ 
+  .paragraph_geral {
+    color: #475550;
+  }
+
+  .trybe_green {
+    color: #11a36a;
+  }
+
+  .section_title {
+    line-height: 42px;
+    font-weight: 600;
+    font-size: 28px;
+  }
+
+  .testimonial_name {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .picture {
+    border-radius: 50%;
+  }
+
+  .button {
+    background-color: #11a36a;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #ffffff;
+    text-decoration: none;
+  }
