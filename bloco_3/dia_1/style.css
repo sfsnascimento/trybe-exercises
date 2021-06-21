@@ -85,4 +85,51 @@ body {
   .market-text p {
     margin-bottom: 30px;
   }
-    
+
+  .student-testimonial {
+    padding: 30px 70px 90px 70px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .student-container {
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .student-container p {
+  margin: 10px 0px;
+  }
+
+  .learning {
+    padding: 30px 70px;
+  }
+
+  .learning-left {
+    float: left;
+    max-width: 35%;
+    margin-left: 70px;
+  }
+
+  .learning-right {
+    float: right;
+    margin-right: 50px;
+  }
+
+  .footer {
+    clear: both;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .footer h4 {
+    margin: 30px;
+  }
+
+  .learning {
+    margin-bottom: 30px;
+    list-style-type: disc;
+  }
