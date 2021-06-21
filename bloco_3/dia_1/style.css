@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Montserrat, sans-serif;
   }
@@ -8,6 +13,15 @@ body {
 
   .trybe_green {
     color: #11a36a;
+  }
+
+  .main-title {
+    color:#11a36a;
+    line-height: 55px;
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
   }
 
   .section_title {
@@ -33,3 +47,27 @@ body {
     color: #ffffff;
     text-decoration: none;
   }
+
+  .header {
+      background-image: url('images/smiling-image.jpeg');
+      background-size: cover;
+      padding: 60px 30px 40px 30px;
+      background-position: 50% 25%;    
+  }
+
+  .header-content{
+    max-width: 60%;
+    margin-left: 75px;
+    }
+
+  .header-text{
+    max-width: 80%;
+    text-align: left;
+    color: #475550;
+    font-weight: 500;
+  }
+
+  .header-text p {
+    margin-bottom: 30px;
+  }
+    
