@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+  }
+ 
+  .paragraph_geral {
+    color: #475550;
+  }
+
+  .trybe_green {
+    color: #11a36a;
+  }
+
+  .main-title {
+    color:#11a36a;
+    line-height: 55px;
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+  }
+
+  .section_title {
+    line-height: 42px;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 60px;
+  }
+
+  .testimonial_name {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .picture {
+    border-radius: 50%;
+  }
+
+  .button {
+    background-color: #11a36a;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .header {
+      background-image: url('images/smiling-image.jpeg');
+      background-size: cover;
+      padding: 60px 30px 40px 30px;
+      background-position: 50% 25%;    
+  }
+
+  .header-content{
+    max-width: 60%;
+    margin-left: 75px;
+    }
+
+  .header-text{
+    max-width: 80%;
+    text-align: left;
+    color: #475550;
+    font-weight: 500;
+  }
+
+  .header-text p {
+    margin-bottom: 30px;
+  }
+
+  .market {
+    padding: 70px 30px;
+    text-align: center;
+  }
+
+  .market-text {
+    max-width: 60%;
+    margin: auto;
+  }
+
+  .market-text p {
+    margin-bottom: 30px;
+  }
+
+  .student-testimonial {
+    padding: 30px 70px 90px 70px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .student-container {
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .student-container p {
+  margin: 10px 0px;
+  }
+
+  .learning {
+    padding: 30px 70px;
+  }
+
+  .learning-left {
+    float: left;
+    max-width: 35%;
+    margin-left: 70px;
+  }
+
+  .learning-right {
+    float: right;
+    margin-right: 50px;
+  }
+
+  .footer {
+    clear: both;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .footer h4 {
+    margin: 30px;
+  }
+
+  .learning {
+    margin-bottom: 30px;
+    list-style-type: disc;
+  }
