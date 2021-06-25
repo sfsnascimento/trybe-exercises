@@ -6,4 +6,8 @@ for (let index = 0; index < numbers.length; index += 1){
     valoresImpares += 1; 
   }
 }
+if (valoresImpares > 0){
   console.log(valoresImpares);
+} else {
+  console.log("nenhum valor ímpar encontrado");
+}
