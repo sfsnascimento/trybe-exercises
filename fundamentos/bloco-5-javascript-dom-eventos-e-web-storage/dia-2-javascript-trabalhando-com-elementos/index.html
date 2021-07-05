@@ -72,6 +72,12 @@
       let div = document.createElement('div');
       pai.appendChild(div);
       div.className = 'center-content';
+
+      // Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
+      let divPai = document.getElementsByClassName('center-content')[0];
+      let tagP = document.createElement('p');
+      divPai.appendChild(tagP);
+      tagP.innerText = 'Trabalhando com elementos';
       
       
     </script>
