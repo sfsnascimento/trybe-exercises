@@ -115,17 +115,26 @@
       }
 
       // 9. Adicione 3 tags h3 , todas sendo filhas do div criado no passo 2.
-      let tag1 = document.getElementsByClassName('left-content')[0];
+      let tag1 = document.getElementsByClassName('main-content')[0];
       let criandoTag = document.createElement('h3');
       tag1.appendChild(criandoTag);
 
-      let tag2 = document.getElementsByClassName('left-content')[0];
+      let tag2 = document.getElementsByClassName('main-content')[0];
       let criandoTag2 = document.createElement('h3');
       tag2.appendChild(criandoTag2);
 
-      let tag3 = document.getElementsByClassName('left-content')[0];
+      let tag3 = document.getElementsByClassName('main-content')[0];
       let criandoTag3 = document.createElement('h3');
       tag3.appendChild(criandoTag3);
+
+      // 1. Adicione a classe title na tag h1 criada;
+      let adicionaClasseH1 = document.querySelector('h1');
+      adicionaClasseH1.className = 'title';
+      
+  
+
+
+
 
     </script>
   </body>
