@@ -141,7 +141,11 @@
       let adicionaClasseH3_3 = document.getElementsByTagName('h3')[2];
       adicionaClasseH3_3.className = 'description';
 
-      
+      // 3. Remova o div criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild() ;
+      let remove = document.querySelector('.main-content');
+      let removeDiv = document.querySelector('.left-content');
+      remove.removeChild(removeDiv);
+
     </script>
   </body>
 </html>
