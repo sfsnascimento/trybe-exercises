@@ -36,3 +36,11 @@ function diasDoMes () {
 diasDoMes();
 
 // Exercício 2
+function diasFeriado () {
+  const butaoContainer = document.getElementsByClassName('buttons-container')[0];
+  const botao = document.createElement('button');
+  butaoContainer.appendChild(botao);
+  botao.id = 'btn-holiday';
+  botao.innerText = 'Feriados';
+}
+diasFeriado();
