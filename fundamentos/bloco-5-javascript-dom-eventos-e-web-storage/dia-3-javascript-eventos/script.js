@@ -24,10 +24,12 @@ function diasDoMes () {
     const elementosLista = document.createElement('li');
     elementosLista.innerText = dias;
     lista.appendChild(elementosLista);
-    if (dias === 4 || dias === 11 || dias === 18 || dias === 25) {
+    if (dias === 4 || dias === 11 || dias === 18) {
       elementosLista.className = 'day friday';
-    } else if (dias === 24 || dias === 25 || dias === 31) {
+    } else if (dias === 24 || dias === 31) {
       elementosLista.className = 'day holiday';
+    } else if (dias === 25) {
+      elementosLista.className = 'day friday holiday';
     } else {
       elementosLista.className = 'day';
     }
@@ -36,11 +38,13 @@ function diasDoMes () {
 diasDoMes();
 
 // Exercício 2
-function diasFeriado () {
+function diasFeriado (string) {
   const butaoContainer = document.getElementsByClassName('buttons-container')[0];
   const botao = document.createElement('button');
   butaoContainer.appendChild(botao);
   botao.id = 'btn-holiday';
-  botao.innerText = 'Feriados';
+  botao.innerText = string;
 }
-diasFeriado();
+diasFeriado('Feriados');
+
+// Exercício 3
