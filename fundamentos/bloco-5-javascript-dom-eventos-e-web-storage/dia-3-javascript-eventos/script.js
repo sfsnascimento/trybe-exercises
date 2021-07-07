@@ -24,6 +24,15 @@ function diasDoMes () {
     const elementosLista = document.createElement('li');
     elementosLista.innerText = dias;
     lista.appendChild(elementosLista);
+    if (dias === 4 || dias === 11 || dias === 18 || dias === 25) {
+      elementosLista.className = 'day friday';
+    } else if (dias === 24 || dias === 25 || dias === 31) {
+      elementosLista.className = 'day holiday';
+    } else {
+      elementosLista.className = 'day';
+    }
   }
 }
 diasDoMes();
+
+// Exercício 2
