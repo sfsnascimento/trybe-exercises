@@ -1,0 +1,11 @@
+.background {
+  background-color: white;
+  font-size: medium;
+  color: black;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
