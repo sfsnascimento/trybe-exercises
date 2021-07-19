@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <title>Formulário de currículo</title>
+</head>
+<body>
+  <header>
+    <h1>Formulário de Cadastro de Currículo</h1>
+  </header>
+  <main>
+    <form action="" class="mx-5">
+      <div class="mb-3" class="form-control">
+        <fieldset class="form-control">
+          <div class="mb-3">
+            <label for="input-nome" class="form-label">Nome:
+              <input class="form-control" type="text" id="input-texto" maxlength="40" required>
+            </label>
+          </div>
+          <div class="mb-3">
+            <label for="input-email" class="form-label">Email:
+              <input class="form-control" type="text" id="input-email" maxlength="11" required>
+            </label>
+          </div>
+          <div class="mb-3">
+            <label for="input-cpf" class="form-label">CPF:
+              <input class="form-control" type="text" id="input-cpf" maxlength="11" required>
+            </label>
+          </div>
+          <div class="mb-3">
+            <label for="input-endereco" class="form-label">Endereço:
+              <input class="form-control" type="text" id="input-endereco" maxlength="200" required>
+            </label>
+          </div>
+          <div class="mb-3">
+            <label for="input-cidade" class="form-label">Cidade:
+              <input class="form-control" type="text" id="input-cidade" maxlength="28" required>
+            </label>
+          </div>
+          <div class="mb-3">
+            <p>Estado:</p>
+            <select name="estados" id="input-estados"></select>
+          </div>
+          <div class="mb-3">
+            <label for="input-tipo" class="form-check-label">Tipo:
+              <input class="form-check-input" type="radio" name="tipo" id="input-tipo" required>casa
+            </label>
+            <label for="input-tipo-1" class="form-check-label">
+              <input class="form-check-input"type="radio" name="tipo" id="input-tipo-1" required>Apartamento
+            </label>
+          </div>
+        </fieldset>
+      </div>
+      <fieldset class="form-control">
+        <div class="mb-3">
+          <label for="resumo-curriculo" class="form-label">
+            <p>Resumo do Curriculo:</p>
+            <textarea name="resumo-curriculo" id="resumo-curriculo" maxlength="1000" cols="30" rows="10" required></textarea>
+          </label>
+        </div>
+        <div class="mb-3">
+          <label for="cargo" class="form-label">Cargo:
+            <input class="form-control" type="text" name="cargo" id="cargo" maxlength="40" required>
+          </label>
+        </div>
+        <div class="mb-3">
+          <label for="descricao-cargo" class="form-label">Descrição do Cargo:
+            <input class="form-control" type="text" name="descricao-cargo" id="descricao-cargo" maxlength="500" required>
+          </label>
+        </div>
+        <div class="mb-3">
+          <label for="data-inicio" class="form-label">Data de Início:
+            <input class="form-control" type="text" name="data-inicio" id="datepicker" step="" required>
+          </label>
+        </div>
+      </fieldset>
+      <div class="my-3">
+        <button class="btn btn-primary" type="submit" class="form-label">Enviar</button>
+        <button class="btn btn-secondary" type="reset" id="reset" name="reset">Limpar</button>
+      </div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+  <script src="pikaday.js"></script>
+</body>
+</html>
