@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário de currículo</title>
+</head>
+<body>
+  <header>
+    <h1>Formulário de cadastro de currículo</h1>
+  </header>
+  <main>
+    <form action="">
+      <fieldset>
+        <label for="input-nome">Nome:
+          <input type="text" id="input-texto" maxlength="40" required>
+        </label>
+        <br><br>
+        <label for="input-email">Email:
+          <input type="text" id="input-email" maxlength="11" required>
+        </label>
+        <br><br>
+        <label for="input-cpf">CPF:
+          <input type="text" id="input-cpf" maxlength="11" required>
+        </label>
+        <br><br>
+        <label for="input-endereco">Endereço:
+          <input type="text" id="input-endereco" maxlength="200" required>
+        </label>
+        <br><br>
+        <label for="input-cidade">Cidade:
+          <input type="text" id="input-cidade" maxlength="28" required>
+        </label>
+        <br><br>
+        <p>Estado:</p>
+        <select name="estados" id="input-estados"></select>
+        <br><br>
+        <label for="input-tipo">Tipo:
+          <input type="radio" name="tipo" id="input-tipo" required>casa
+        </label>
+        <label for="input-tipo-1">
+          <input type="radio" name="tipo" id="input-tipo-1" required>Apartamento
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="resumo-curriculo">
+          <p>Resumo do Curriculo:</p>
+          <textarea name="resumo-curriculo" id="resumo-curriculo" maxlength="1000" cols="30" rows="10" required></textarea>
+        </label>
+        <br><br>
+        <label for="cargo">Cargo:
+          <input type="text" name="cargo" id="cargo" maxlength="40" required>
+        </label>
+        <br><br>
+        <label for="descricao-cargo">Descrição do Cargo:
+          <input type="text" name="descricao-cargo" id="descricao-cargo" maxlength="500" required>
+        </label>
+        <br><br>
+        <label for="data-inicio">Data de Início:
+          <input type="text" name="data-inicio" id="data-inicio" step="" required>
+        </label>
+      </fieldset>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
